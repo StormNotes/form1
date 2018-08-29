@@ -1,0 +1,52 @@
+
+body {
+  margin-right: auto;
+  font-family: 'Indie Flower', cursive !important;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  background: rgb(59, 74, 87);
+  height: 50vh;
+}
+
+
+header{
+  background: rgba(0, 0, 0, 0.62);
+  height: 60vh;
+}
+
+.salute h1{
+  color:white;
+  font-size: 50px;
+  text-align: center;
+  padding:10px 10px 10px 10px;
+
+}
+
+.salute{padding: 100px 100px;}
+
+
+
+.info{
+  margin: 100px auto;
+  background: rgba(255, 255, 255, 1);
+  height: 105vh;
+  width:  auto 500px;
+  border: 10px solid rgba(0, 53, 143, 0.76);
+  box-shadow: 10px 10px 70px black;
+
+}
+
+
+/* For tablets */
+@media(min-width:501px) and (max-width:900px){
+  .salute h1{font-size: 26px;}
+}
+/* For Phones*/
+@media(min-width:320px) and (max-width:500px){
+  .salute h1{font-size: 14px;}
+}
+
+@media(min-width:320px) and (max-width:500px){
+  .info{border-top: 30px solid rgb(59, 74, 87)}
+  .info{height: 110vh;}
+}
