@@ -11,7 +11,6 @@
   <link rel="stylesheet" href="main.css">
   <link rel="stylesheet" href="inside.css">
   <link rel="stylesheet" href="typewritter.css">
-
 </head>
 
 <body>
@@ -37,12 +36,18 @@
 
         <div class="forms">
           <h2>Create your account</h2>
-          <input type="text" placeholder="user-name" required>
-          <input type="password" placeholder="Password" required>
-          <input type="email" placeholder="email" required>
-          <input type="phone" placeholder="phone" required>
+          <form action="" method="post" class="simpleForm" onsubmit="return ValidateForm()">
+            <input type="text" id="username" placeholder="User Name">
+            <p class="error"></p>
+            <input type="number" id="phoneNum" placeholder="Phone Number">
+            <p class="error"></p>
+            <input type="password" id="password" placeholder="Password">
+            <p class="error"></p>
+            <input type="password" id="confirm_password" placeholder="Confirm Password">
+            <p class="error"></p>
+            <button type="submit" >Register</button>
+        </form>
 
-          <input type="submit" value="create account">
         </div>
 
         <div class="reset-password">
