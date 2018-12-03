@@ -7,6 +7,7 @@ $('.toggle').click(function () {
     }, "slow")
 });
 
+
 function ValidateForm() {
     var username = document.getElementById("username");
     var phoneNum = document.getElementById("phoneNum");
